@@ -15,17 +15,16 @@ public class TriangleClassificationProject01Task02 {
         int side3 = input.nextInt();
 
         if ((side1 + side2 > side3) && (side3 > Math.abs(side1 - side2))) {
-            System.out.println("Gecerli Ucgen!");
+            System.out.println("Valid Triangle!");
             if (side1 == side2 && side2 == side3) {
-                System.out.println("Eskenar Ucgen!");
+                System.out.println("Equilateral triangle!");
             } else if (side1 == side2 || side1 == side3 || side2 == side3) {
-                System.out.println("Ikizkenar Ucgen!");
+                System.out.println("Isosceles Triangle!");
             } else {
-                System.out.println("Cesit Kenar Ucgen!");
+                System.out.println("Different Side Triangle!");
             }
         } else {
-            System.out.println("Gecersiz Ucgen!");
+            System.out.println("Invalid Triangle!");
         }
-
     }
 }
