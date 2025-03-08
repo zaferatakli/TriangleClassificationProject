@@ -1,8 +1,8 @@
-package task2;
+package task2.src.WithoutOOP;
 
 import java.util.Scanner;
 
-public class TriangleClassificationProject01Task02 {
+public class TriangleClassificationProject {
     public static void main(String[] args) {
         /*Triangle Classification Project */
 
